@@ -1,0 +1,26 @@
+{
+  "name": "gulp-playground",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " git@bitbucket.org:brunobertolini/gulp-playground.git"
+  },
+  "keywords": [
+    "gulp",
+    "tasks",
+    "subtasks",
+    "automatization",
+    "load tasks"
+  ],
+  "author": "Bruno Bertolini <dev@brunobertolini.com>",
+  "license": "No License",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "lodash": "^3.1.0"
+  }
+}
