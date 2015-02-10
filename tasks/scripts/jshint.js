@@ -3,7 +3,11 @@
 var config = {
     name: 'scripts:jshint',
     description: 'Lint js code',
-    callback: callback
+    callback: callback,
+
+    settings: {
+        'name': '${name}'
+    }
 
 };
 

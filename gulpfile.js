@@ -1,6 +1,6 @@
 'use strict';
 
-var playground = require('./lib')({
+var playground = require('./lib')( __dirname + '/tasks', {
 
     name: 'component',
 
@@ -9,7 +9,7 @@ var playground = require('./lib')({
 
         tests: false,
         jshint: {
-            't': 'oo'
+            't': '${name}'
         }
     }
 });
