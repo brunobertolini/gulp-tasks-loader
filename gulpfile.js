@@ -1,12 +1,14 @@
 'use strict';
 
-var playground = require('./index.js')({
+var playground = require('./lib')({
 
     name: 'component',
 
     scripts: {
-        name: '${name} works',
-        path: '${paths.dist}/js '
-    }
+        src:'ok',
 
+        jshint: {
+            't': 'oo'
+        }
+    }
 });
