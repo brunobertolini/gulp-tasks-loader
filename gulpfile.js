@@ -7,6 +7,7 @@ var playground = require('./lib')({
     scripts: {
         src:'ok',
 
+        tests: false,
         jshint: {
             't': 'oo'
         }

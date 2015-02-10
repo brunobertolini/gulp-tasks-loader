@@ -6,7 +6,8 @@ var config = {
     dependencies: [],
 
     sequence: [
-        'jshint'
+        'jshint',
+        'test-devmode'
     ],
 
     settings: {
