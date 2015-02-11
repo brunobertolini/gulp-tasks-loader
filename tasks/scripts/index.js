@@ -12,13 +12,13 @@ var config = {
 
     settings: {
         paths: {
-            dist: '{$paths.assets}/js',
+            dist: '${paths.assets}/js',
             tmp: './tmp/'
         },
 
         src: [
-            '{$paths.src}/**/module.js',
-            '{$paths.src}/**/*.js'
+            '${paths.src}/**/module.js',
+            '${paths.src}/**/*.js'
         ]
     }
 };

@@ -9,7 +9,7 @@ var playground = require('./lib')( __dirname + '/tasks', {
 
         tests: false,
         jshint: {
-            't': '${name}'
+            't': '${scripts.jshint.name}'
         }
     }
 });
