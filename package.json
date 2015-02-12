@@ -20,7 +20,8 @@
   "author": "Bruno Bertolini <dev@brunobertolini.com>",
   "license": "No License",
   "dependencies": {
-    "gulp": "^3.8.10",
-    "lodash": "^3.1.0"
+    "gulp": "^3.8.11",
+    "lodash": "^3.1.0",
+    "run-sequence": "^1.0.2"
   }
 }
