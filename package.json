@@ -1,5 +1,5 @@
 {
-  "name": "gulp-playground",
+  "name": "gulp-tasks-loader",
   "version": "0.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": " git@bitbucket.org:brunobertolini/gulp-playground.git"
+    "url": "git@github.com:brunobertolini/gulp-tasks-loader.git"
   },
   "keywords": [
     "gulp",
@@ -18,12 +18,10 @@
     "load tasks"
   ],
   "author": "Bruno Bertolini <dev@brunobertolini.com>",
-  "license": "No License",
+  "license": "MIT",
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-help": "^1.3.3",
-    "gulp-jshint": "^1.9.2",
-    "gulp-load-plugins": "^0.8.0",
     "lodash": "^3.1.0",
     "run-sequence": "^1.0.2"
   }
